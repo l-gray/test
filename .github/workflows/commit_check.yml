@@ -13,7 +13,7 @@ jobs:
     name: Check metadata
     runs-on: ubuntu-latest
     # Exclude Dependabot PRs
-    if: ${{ github.event.push.sender.login  != 'dependabot[bot]' }}
+    if: ${{ github.event.sender.login  != 'dependabot[bot]' }}
     steps:
       - name: Checkout repo
         uses: actions/checkout@v2
