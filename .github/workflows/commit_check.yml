@@ -1,0 +1,28 @@
+name: Check Git commit metadata
+
+on:
+  workflow_dispatch:
+  push:
+    branches-ignore:
+      - 'master'
+    tags-ignore:
+      - '**'
+
+jobs:
+  check-commit-metadata:
+    name: Check metadata
+    runs-on: ubuntu-latest
+    # Exclude Dependabot PRs
+    if: ${{ github.event.push.sender.login  != 'dependabot[bot]' }}
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: Set up Python 3.x
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+      - name: Check Git commit metadata
+        run: |
+          echo "Checking Git commit metadata"
