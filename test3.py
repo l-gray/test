@@ -1,6 +1,6 @@
 
 # ruleid:useless-eqeq
-#x == x
+x == x
 
 def __eq__(self, other):
     # OK; skip most things that are inside eqs based on what we saw on platform
@@ -22,4 +22,4 @@ assertTrue(x ==x)
 assertFalse(x == x)
 
 # ruleid:useless-eqeq
-#print(x != x)
+print(x != x)
