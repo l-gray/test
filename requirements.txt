@@ -82,7 +82,7 @@ sphinxcontrib-jsmath==1.0.1
 sphinxcontrib-qthelp==1.0.3
 sphinxcontrib-serializinghtml==1.1.5
 starkbank-ecdsa==2.0.3
-statsmodels==0.13.1
+statsmodels==0.13.2
 tabulate==0.8.9
 tensorboard==2.8.0
 tensorboard-data-server==0.6.1
