@@ -41,7 +41,7 @@ Markdown==3.3.6
 MarkupSafe==2.0.1
 matplotlib==3.5.1
 mizani==0.7.3
-msgpack==1.0.2
+msgpack==1.0.3
 netaddr==0.8.0
 netcalc==0.6.2
 numpy==1.22.2
