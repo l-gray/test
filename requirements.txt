@@ -54,7 +54,7 @@ patsy==0.5.2
 pep517==0.12.0
 Pillow==9.0.1
 pip-tools==6.4.0
-pipdeptree==2.2.0
+pipdeptree==2.2.1
 platformdirs==2.4.0
 plotnine==0.8.0
 protobuf==3.19.4
