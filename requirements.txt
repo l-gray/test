@@ -92,7 +92,7 @@ tensorflow-io-gcs-filesystem==0.24.0
 termcolor==1.1.0
 tf-estimator-nightly==2.8.0.dev2021122109
 toml==0.10.2
-tomli==1.2.3
+tomli==2.0.1
 truffleHog==2.2.1
 truffleHogRegexes==0.0.7
 typing_extensions==4.0.0
