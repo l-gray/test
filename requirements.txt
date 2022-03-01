@@ -96,7 +96,7 @@ tomli==1.2.2
 truffleHog==2.2.1
 truffleHogRegexes==0.0.7
 typing_extensions==4.0.0
-urllib3==1.26.7
+urllib3==1.26.8
 virtualenv==20.10.0
 Werkzeug==2.0.3
 wrapt==1.13.3
