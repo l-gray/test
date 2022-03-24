@@ -1,4 +1,4 @@
 Werkzeug==2.0.3
 wrapt==1.14.0
 zipp==3.7.0
-ipython==7.27.0
+ipython==8.1.1
