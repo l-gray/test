@@ -2318,9 +2318,9 @@ ninja==1.10.2.3 \
     --hash=sha256:d5e0275d28997a750a4f445c00bdd357b35cc334c13cdff13edf30e544704fbd \
     --hash=sha256:e1b86ad50d4e681a7dbdff05fc23bb52cb773edb90bc428efba33fa027738408
     # via pytype
-nltk==3.6.5 \
-    --hash=sha256:834d1a8e38496369390be699be9bca4f2a0f2175b50327272b2ec7a98ffda2a0 \
-    --hash=sha256:95fb4f577efe93af21765e9b2852235c2c6a405885da2a70f397478d94e906e0
+nltk==3.6.6 \
+    --hash=sha256:0f8ff4e261c78605bca284e8d2025e562304766156af32a1731f56b396ee364b \
+    --hash=sha256:69470ba480ff4408e8ea82c530c8dc9571bab899f49d4571e8c8833e0916abd0
     # via
     #   -r requirements.in
     #   benepar
