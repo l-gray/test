@@ -3886,9 +3886,9 @@ scramp==1.4.1 \
     --hash=sha256:93c9cc2ffe54a451e02981c07a5a23cbd830701102789939cfb4ff91efd6ca8c \
     --hash=sha256:f964801077be9be2a1416ffe255d2d78834b3d9d5c8ce5d28f76a856f209f70e
     # via pg8000
-scrapy==1.8.1 \
-    --hash=sha256:26ac0e5044c2bf6082b2e263832fe6e0806ee4b3571b0b6d024f1c289bbe2c6d \
-    --hash=sha256:809bb1e2ff5b1513369cf98a596afb7f520f862e924db95c8d9a55509d6fc5df
+Scrapy==1.8.2 \
+    --hash=sha256:3b6b28c73c775cb5e49c74ab6f4e04aca9ec49052cfa76902c8c2cdfcfdcba47 \
+    --hash=sha256:b3691baf0790858f51d898c6d8bcb82627eeb3d6be57edd2d98a915e03ad12e5
     # via -r requirements.in
 semver==2.13.0 \
     --hash=sha256:ced8b23dceb22134307c1b8abfa523da14198793d9787ac838e70e29e77458d4 \
