@@ -1,18 +1,166 @@
+# List direct dependencies for building python applications.
+# Use version specifiers (https://peps.python.org/pep-0440/) in case
+# of security/compatibility issues
+# e.g 
+# == 0.6.1             # Version Matching. Must be version 0.6.1
+# >= 4.1.1             # Minimum version 4.1.1
+#  != 3.5              # Version Exclusion. Anything except version 3.5
+#  ~= 1.1              # Compatible release. Same as >= 1.1, == 1.*
+
 Flask
 aiohttp
 aiopg
 apache-beam[gcp]
-appnope
+appnope # Pinned as a dependency for ipython for MacOSx
 autoflake
 benepar
 backoff
 biopython
 black
 boto3
-boto3-stubs[s3]
-botocore
+boto3-stubs[s3] # Keep in sync with boto3
+botocore # Changes a bajillion times a day.
 boto
 bs4
 cx-Oracle
 dacite
 dataclasses-avroschema
+django-cors-headers
+django-debug-toolbar
+django-import-export
+django-postgres-copy
+django-q
+django-redis
+django-storages[google]
+django-stubs # Must be compatible with selected django / mypy
+# See version compatibility here: https://pypi.org/project/django-stubs/
+django
+djangorestframework-simplejwt
+djangorestframework
+docformatter
+drf-spectacular
+dvc[gs]
+elasticsearch2
+elasticsearch[async]
+fastavro
+freezegun
+fsspec
+ftputil
+fuzzywuzzy[speedup]
+gcsfs
+gevent
+google-api-python-client
+google-auth
+google-cloud-automl
+google-cloud-bigquery[bqstorage,pandas]
+google-cloud-container
+google-cloud-datacatalog
+google-cloud-logging
+google-cloud-monitoring
+google-cloud-pubsub
+google-cloud-storage
+google-cloud-workflows
+graphene-django
+grpcio # Versions before 1.29.0 break some google-cloud-* libraries
+# There is a bug in the dependency specification for >=1.23A. Work around it by
+# using an older version.
+# See https://github.com/googleapis/google-cloud-python/issues/9786
+google-cloud-secret-manager
+httpretty
+ipython
+isort
+jinja2
+kubernetes
+launchdarkly-server-sdk
+locust
+marshmallow
+matplotlib
+mock
+mlflow
+neo4j
+nltk
+# apache_beam.testing.test_pipeline.TestPipeline in Apache Beam imports nose
+# explicitly
+nose
+numpy
+nyt-pyiap
+opencensus-ext-django
+opencensus-ext-google-cloud-clientlibs
+opencensus-ext-grpc
+opencensus-ext-postgresql
+opencensus-ext-stackdriver
+opencensus-ext-threading
+opencensus
+openpyxl
+pandas
+pandas-gbq
+pandas-stubs
+paramiko
+pillow
+pip-tools
+pip
+plotly
+port-for
+pre-commit
+psycopg2-binary
+pycobertura
+pydantic
+pygithub
+pylint-django
+pylint
+pyftpdlib
+pypandoc
+pytest-cov
+pytest-django
+pytest # pytest < 6.0.0 uses symbolic links for test discovery that interacts negatively with bazel symbolic system. https://docs.pytest.org/en/stable/changelog.html#pytest-6-0-0rc1-2020-07-08
+pytest-mock
+python-dateutil
+python-gnupg
+python-magic
+python-pptx
+python-snappy
+pytorch-lightning
+pytorch-transformers
+pytype
+pyyaml
+pyzipper
+requests[socks]
+safety
+scikit-image
+scikit-learn
+slack-sdk
+scrapy
+semver
+sendgrid
+Shapely
+snapshottest
+sphinx-autobuild
+sphinx
+streamlit
+stringcase
+tensorboard
+timeout-decorator
+torch
+torchvision
+transformers[torch,tokenizers]
+unidecode
+uritemplate
+uvicorn
+wand
+watchdog # watchdog was added to solve the dependency issue with Streamlit.
+yamllint
+stanza
+deepdiff
+opencv-python-headless
+labelbox
+lxml
+google-cloud-aiplatform
+cloudml-hypertune
+orjson
+jsonargparse[signatures]
+tesserocr
+SQLAlchemy
+pg8000
+astroid
+alembic
+pint
