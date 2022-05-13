@@ -3421,9 +3421,9 @@ python-snappy==0.6.1 \
     --hash=sha256:e3a013895c64352b49d0d8e107a84f99631b16dbab156ded33ebf0becf56c8b2 \
     --hash=sha256:eaf905a580f2747c4a474040a5063cd5e0cc3d1d2d6edb65f28196186493ad4a
     # via -r requirements.in
-pytorch-lightning==1.5.0 \
-    --hash=sha256:5bc28022f749d6a7644027ca0428bc162c9ab401cdea78b264d14f5018430f3b \
-    --hash=sha256:e6bc07908b0ca82d69424fb52e8b14189d6ed2fd13a9ffd9adf68d11830b302a
+pytorch-lightning==1.6.0 \
+    --hash=sha256:16b4758b989800719661eccc7c3da7b0c2a742c171618b6668f0f7c368c408c2 \
+    --hash=sha256:1ab6f15750862cfbac48ad7be420050c8c353a060da7c2575f9e267158a33d42
     # via -r requirements.in
 pytorch-transformers==1.2.0 \
     --hash=sha256:15f12a04424c0f6d3a7c7b57d6c79628dc9c117a204fb7db8c1ea330c77a6898 \
