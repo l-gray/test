@@ -1102,8 +1102,8 @@ ftfy==6.1.1 \
     --hash=sha256:0ffd33fce16b54cccaec78d6ec73d95ad370e5df5a25255c8966a6147bd667ca \
     --hash=sha256:bfc2019f84fcd851419152320a6375604a0f1459c281b5b199b2cd0d2e727f8f
     # via python-benedict
-ftputil==5.0.3 \
-    --hash=sha256:9b86ee67c1980ce1d89b13752bc48b9493fee06349cb476828594e76e08f8488
+ftputil==5.0.4 \
+    --hash=sha256:6889db8649dd20d9b6d40a6c5f0f84ccf340a7dac1e0bfc0f0024090fc2afb33
     # via -r requirements.in
 funcy==1.17 \
     --hash=sha256:40b9b9a88141ae6a174df1a95861f2b82f2fdc17669080788b73a3ed9370e968 \
