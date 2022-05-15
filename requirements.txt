@@ -1316,9 +1316,9 @@ google-cloud-bigquery[bqstorage,pandas]==2.34.3 \
     #   apache-beam
     #   google-cloud-aiplatform
     #   pandas-gbq
-google-cloud-bigquery-storage==2.13.0 \
-    --hash=sha256:5e7084af079e224ed06e689d60be39e79b33297fb1709e88bc33b469f50cc0ea \
-    --hash=sha256:7085221c4a47967cb7905032e1d6645dcaa98461be145ceafd5e154f16945d5c
+google-cloud-bigquery-storage==2.13.1 \
+    --hash=sha256:4f3845535c77f9271a03046438e43cfd56df575d0c5f2ee3362bf8760a0aba50 \
+    --hash=sha256:7a25148f635a04ca9ff568d47e64be275d3a4a3c90772524879e8f88f270d92d
     # via
     #   apache-beam
     #   google-cloud-bigquery
