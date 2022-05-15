@@ -1258,9 +1258,9 @@ google-api-python-client==2.41.0 \
     --hash=sha256:ce25fc21cf0649a1cbf42583e78d5fd7648ff2700e7b89b945209149ba913adc \
     --hash=sha256:facbe8e25ea9d07241299bf7704f53dec154ad3dc52fec2ea23ca6d6e5f6b392
     # via -r requirements.in
-google-apitools==0.5.31 \
-    --hash=sha256:4af0dd6dd4582810690251f0b57a97c1873dadfda54c5bc195844c8907624170 \
-    --hash=sha256:6be92c1c3e93485450420bb0e365d47eb4d8a835d03ebe1963dc6da4d39a7b0e
+google-apitools==0.5.32 \
+    --hash=sha256:b78f74116558e0476e19501b5b4b2ac7c93261a69c5449c861ea95cbc853c688 \
+    --hash=sha256:c3763e52289f61e21c41d5531e20fbda9cc8484a088b8686fd460770db8bad13
     # via apache-beam
 google-auth==1.35.0 \
     --hash=sha256:997516b42ecb5b63e8d80f5632c1a61dddf41d2a4c2748057837e06e00014258 \
