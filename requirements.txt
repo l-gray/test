@@ -1401,9 +1401,9 @@ google-cloud-storage==2.2.1 \
     #   django-storages
     #   gcsfs
     #   google-cloud-aiplatform
-google-cloud-trace==0.24.0 \
-    --hash=sha256:0c342dbd9daf5375b3f8bb94302b7ea9a9946f76684e457a38ff0d420b3b6556 \
-    --hash=sha256:73dd20c490f971350158741866534fe4896ab6c8f062f4b20b04e93c9bfd0a49
+google-cloud-trace==0.24.1 \
+    --hash=sha256:1d32b1c7a4c78a6110d0398c28dcef52aa4ae29822972bd1d5a5bda7c0d692f6 \
+    --hash=sha256:5a825c222bf750a3ef6d410a27b633e12cbf20212479916aa27d69fd0e96fcf6
     # via opencensus-ext-stackdriver
 google-cloud-videointelligence==1.16.1 \
     --hash=sha256:98a5d043d4824ad0529f8c2a3108bc4e1ed530e76314ea2c0e39f3d81cdf378e \
