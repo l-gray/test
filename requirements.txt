@@ -1405,9 +1405,9 @@ google-cloud-trace==0.24.0 \
     --hash=sha256:0c342dbd9daf5375b3f8bb94302b7ea9a9946f76684e457a38ff0d420b3b6556 \
     --hash=sha256:73dd20c490f971350158741866534fe4896ab6c8f062f4b20b04e93c9bfd0a49
     # via opencensus-ext-stackdriver
-google-cloud-videointelligence==1.16.1 \
-    --hash=sha256:98a5d043d4824ad0529f8c2a3108bc4e1ed530e76314ea2c0e39f3d81cdf378e \
-    --hash=sha256:bbde4a5bb479f60466dabad67d5debb30448bb2451b67bba3bfd9b67281a230a
+google-cloud-videointelligence==1.16.2 \
+    --hash=sha256:129dd8109d5e4e53fa6f2fd6f065b09b78168922cec74e50f3ac56b639c25f92 \
+    --hash=sha256:cf88ce17dc7c3cc1aed3be754efbcaff16286a71a35bd3992f1f26e2f686f80e
     # via apache-beam
 google-cloud-vision==1.0.0 \
     --hash=sha256:18e78b190c81d200ae4f6a46d4af57422d68b3b05b0540d5cd1806e3874142bf \
