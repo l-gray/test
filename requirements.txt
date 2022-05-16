@@ -1389,9 +1389,9 @@ google-cloud-secret-manager==2.9.2 \
     --hash=sha256:5bddd20c947c6d43d05fd2b3a19e98bd5f6453e4f077d86e1f4f5299aa78f358 \
     --hash=sha256:befa099b43f559c44f198fcb900ef1a9dde13bc802b58c451b0c64f6e3fa1366
     # via -r requirements.in
-google-cloud-spanner==1.19.1 \
-    --hash=sha256:50c375d8224415b7b7cc19a720c745cd8fb49144db50b252d06c42121374312d \
-    --hash=sha256:ff6869e50eb284854fec864fcaa26139c04ded7ed522ae488fff3b08ffc5dc30
+google-cloud-spanner==1.19.2 \
+    --hash=sha256:4de56ff6f79607d52ac020a44f7163542d0b84a6864b9de400cbd69d4c1417c1 \
+    --hash=sha256:685b5faca26f0a18bfbb333be2aa14584d81e1899f8d4e5847fe7eddab7a585d
     # via apache-beam
 google-cloud-storage==2.2.1 \
     --hash=sha256:0244f4612710cb5ec445fc6774387564e23f9823363fb408b28724e2102401b7 \
