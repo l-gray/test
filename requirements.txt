@@ -1307,9 +1307,9 @@ google-cloud-bigtable==1.7.1 \
     --hash=sha256:4fd85bf3f63a31c48a95ffbfb0aa7eeea950c2dc0130cd3441f2e3d2a3183e32 \
     --hash=sha256:88dbec5abe6e5f39f81a4124e2a443306da1a046a9a43dd639519f2de4e9f011
     # via apache-beam
-google-cloud-container==2.10.6 \
-    --hash=sha256:741b7656cf49d3e979df862d292ef432e50451e83056853aeb382199ccfb7c69 \
-    --hash=sha256:879ef317f6a91d99e1967ac63b5e06210eeb6e57ae59290396681824416f7337
+google-cloud-container==2.10.7 \
+    --hash=sha256:237a1895d8fdd79181097e552c4651a864bb8cc1d66ac406548be3e741144cae \
+    --hash=sha256:3d9c88aafed9fe8c4117b3dfcae13378794fd911441d6ff9ed984eb6336593f3
     # via -r requirements.in
 google-cloud-core==1.7.2 \
     --hash=sha256:5b77935f3d9573e27007749a3b522f08d764c5b5930ff1527b2ab2743e9f0c15 \
