@@ -1377,9 +1377,9 @@ google-cloud-pubsub==2.11.0 \
     #   -r requirements.in
     #   apache-beam
     #   google-cloud-pubsublite
-google-cloud-pubsublite==1.4.1 \
-    --hash=sha256:bd9a1b2d1cccc1b7f7b38c23afc0451670f5d8c09192de6e894edd22499cc3ab \
-    --hash=sha256:f0ff6238c0e021a76c80fe824f3f8ac4c6a942bf82b8b009a526747100a4118e
+google-cloud-pubsublite==1.4.2 \
+    --hash=sha256:9529735bc899520d91b219ee894f4c77298cc22bb2aaccfcec19063a317a84e3 \
+    --hash=sha256:9ad2c79d65e6f6c5ebbbefcecbb72cecddab1a20b1437d20da9d13efb33c72d9
     # via apache-beam
 google-cloud-recommendations-ai==0.2.0 \
     --hash=sha256:063acb4034469b16c430c77cdb2f49225272d86e82ccbaf9fcabfe77fd0e7a69 \
