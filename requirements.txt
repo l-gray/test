@@ -1328,9 +1328,9 @@ google-cloud-datacatalog==3.7.1 \
     --hash=sha256:000296c08af53d027cce51bf57ea498e31090d2da4c0784a84ac49ba2a05a531 \
     --hash=sha256:f7d849bd8d7de625235ce6443b01507ed0e47e0b43e55f214a0e592d62b25995
     # via -r requirements.in
-google-cloud-datastore==1.15.3 \
-    --hash=sha256:3da44b4c8230a83e69dd9429324cca9d3000ee8a8bb11f3b005c7837fcd844b3 \
-    --hash=sha256:961b75b1d4b09eb044fc59825633efd8495471bf9bc015d989b8639be89ce439
+google-cloud-datastore==1.15.4 \
+    --hash=sha256:0d9417a977b21d06d2eed2ff5c2e8874a7e2eb44eecdfc64ac81469f0375c55a \
+    --hash=sha256:be2cc7eac38ec1ed658f39a8ffb374c161227abbfc848260acdfaa5f698710b2
     # via apache-beam
 google-cloud-dlp==3.6.2 \
     --hash=sha256:2f4572b315cdc70fac12fd73e6d5dd77a55c7610148afb0b2c6e327e228c8b6c \
