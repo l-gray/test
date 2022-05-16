@@ -1409,9 +1409,9 @@ google-cloud-videointelligence==1.16.1 \
     --hash=sha256:98a5d043d4824ad0529f8c2a3108bc4e1ed530e76314ea2c0e39f3d81cdf378e \
     --hash=sha256:bbde4a5bb479f60466dabad67d5debb30448bb2451b67bba3bfd9b67281a230a
     # via apache-beam
-google-cloud-vision==1.0.0 \
-    --hash=sha256:18e78b190c81d200ae4f6a46d4af57422d68b3b05b0540d5cd1806e3874142bf \
-    --hash=sha256:e61091a52f334a20e597b74e2fb42c9f27dda25323544cd157d6110fde26c9a6
+google-cloud-vision==1.0.1 \
+    --hash=sha256:7bb1e327f0cdb3133a745afb10238f66c09387d34ddd7de27150c79de4bd5da0 \
+    --hash=sha256:db3f07ba1d23892ff1eaea70f02dcd188530f5e95d7092c8edf7e1e84c384efc
     # via apache-beam
 google-cloud-workflows==1.6.1 \
     --hash=sha256:31372e21f29c9e543ab4e52ff8807a3180a8ae5a0617b4466c8fcc9261994611 \
