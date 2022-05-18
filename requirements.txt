@@ -184,9 +184,9 @@ google-cloud-pubsublite==1.4.2 \
     --hash=sha256:9529735bc899520d91b219ee894f4c77298cc22bb2aaccfcec19063a317a84e3 \
     --hash=sha256:9ad2c79d65e6f6c5ebbbefcecbb72cecddab1a20b1437d20da9d13efb33c72d9
     # via apache-beam
-google-cloud-recommendations-ai==0.2.0 \
-    --hash=sha256:063acb4034469b16c430c77cdb2f49225272d86e82ccbaf9fcabfe77fd0e7a69 \
-    --hash=sha256:b2180516386edfa5ec0cc1050cc7c58ac1a7fd085a178c8edc2bbe0b6ebc925f
+google-cloud-recommendations-ai==0.6.1 \
+    --hash=sha256:2709da450c7abce18d5eb5d9b60e0f9042b6dbf47fd9e3f78d256e042f16c31e \
+    --hash=sha256:7bb93b6a5e52c98574c6169ea2ff71849cfdac0494abf52b7ef44c750323325f
     # via apache-beam
 google-cloud-spanner==1.19.2 \
     --hash=sha256:4de56ff6f79607d52ac020a44f7163542d0b84a6864b9de400cbd69d4c1417c1 \
