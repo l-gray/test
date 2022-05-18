@@ -41,9 +41,9 @@ apache-beam[gcp]==2.38.0 \
     --hash=sha256:f66f643fd0518d1e675aea2579d2408de95379dbfe378ff8ea3cefe862300f14 \
     --hash=sha256:f7db8fe24d479683ff978b67491799d40b04c24f2f52a9752e8caeb7b4b98be2
     # via -r requirements.in
-cachetools==4.2.4 \
-    --hash=sha256:89ea6f1b638d5a73a4f9226be57ac5e4f399d22770b92355f92dcb0f7f001693 \
-    --hash=sha256:92971d3cb7d2a97efff7c7bb1657f21a8f5fb309a37530537c71b1774189f2d1
+cachetools==5.1.0 \
+    --hash=sha256:4ebbd38701cdfd3603d1f751d851ed248ab4570929f2d8a7ce69e30c420b141c \
+    --hash=sha256:8b3b8fa53f564762e5b221e9896798951e7f915513abf2ba072ce0f07f3f5a98
     # via
     #   apache-beam
     #   google-auth
