@@ -1,0 +1,5 @@
+google-cloud-logging
+google-cloud-storage
+apache-beam[gcp]
+opencensus-ext-google-cloud-clientlibs
+google-cloud-bigquery[bqstorage,pandas]
