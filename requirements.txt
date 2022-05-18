@@ -192,9 +192,9 @@ google-cloud-spanner==1.19.2 \
     --hash=sha256:4de56ff6f79607d52ac020a44f7163542d0b84a6864b9de400cbd69d4c1417c1 \
     --hash=sha256:685b5faca26f0a18bfbb333be2aa14584d81e1899f8d4e5847fe7eddab7a585d
     # via apache-beam
-google-cloud-storage==2.2.1 \
-    --hash=sha256:0244f4612710cb5ec445fc6774387564e23f9823363fb408b28724e2102401b7 \
-    --hash=sha256:abdf0fadf26516172e804e00b9c24819a3b3f7351cd32f35ca249bbfac965494
+google-cloud-storage==2.3.0 \
+    --hash=sha256:9a7b1d07d53bc1df5384a9906c1e6d9c920a2bdb5ffa5982d2c1d2bdaacd70c8 \
+    --hash=sha256:f4cbb0de5e17228e9c09cdc897d81eaa70e2c396f58513f79de0e824584c8f5b
     # via -r requirements.in
 google-cloud-videointelligence==1.16.2 \
     --hash=sha256:129dd8109d5e4e53fa6f2fd6f065b09b78168922cec74e50f3ac56b639c25f92 \
