@@ -142,9 +142,9 @@ google-cloud-bigquery-storage==2.13.1 \
     # via
     #   apache-beam
     #   google-cloud-bigquery
-google-cloud-bigtable==1.7.1 \
-    --hash=sha256:4fd85bf3f63a31c48a95ffbfb0aa7eeea950c2dc0130cd3441f2e3d2a3183e32 \
-    --hash=sha256:88dbec5abe6e5f39f81a4124e2a443306da1a046a9a43dd639519f2de4e9f011
+google-cloud-bigtable==2.9.0 \
+    --hash=sha256:0df819a29d8841a3cc82bf952c9179c220af3a05cf388ecbc0c7754a279fdffd \
+    --hash=sha256:c819492a56dd04edeb67149eecefb3b8e84cab1337460fbc7ce880f6a95ec05a
     # via apache-beam
 google-cloud-core==1.7.2 \
     --hash=sha256:5b77935f3d9573e27007749a3b522f08d764c5b5930ff1527b2ab2743e9f0c15 \
