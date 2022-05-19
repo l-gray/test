@@ -158,9 +158,9 @@ google-cloud-core==1.7.2 \
     #   google-cloud-spanner
     #   google-cloud-storage
     #   opencensus-ext-google-cloud-clientlibs
-google-cloud-datastore==1.15.4 \
-    --hash=sha256:0d9417a977b21d06d2eed2ff5c2e8874a7e2eb44eecdfc64ac81469f0375c55a \
-    --hash=sha256:be2cc7eac38ec1ed658f39a8ffb374c161227abbfc848260acdfaa5f698710b2
+google-cloud-datastore==2.6.0 \
+    --hash=sha256:9beaf6e1f518b46e276ccb75ec6dfb6b1877052234f288eaa97f0fbcb6e00e34 \
+    --hash=sha256:e831e9f24cfe0a2664cd70f13df4fb281e18875d42c1c123dcc4e7e72778d384
     # via apache-beam
 google-cloud-dlp==3.6.2 \
     --hash=sha256:2f4572b315cdc70fac12fd73e6d5dd77a55c7610148afb0b2c6e327e228c8b6c \
