@@ -184,17 +184,17 @@ google-cloud-pubsublite==1.4.2 \
     --hash=sha256:9529735bc899520d91b219ee894f4c77298cc22bb2aaccfcec19063a317a84e3 \
     --hash=sha256:9ad2c79d65e6f6c5ebbbefcecbb72cecddab1a20b1437d20da9d13efb33c72d9
     # via apache-beam
-google-cloud-recommendations-ai==0.6.1 \
-    --hash=sha256:2709da450c7abce18d5eb5d9b60e0f9042b6dbf47fd9e3f78d256e042f16c31e \
-    --hash=sha256:7bb93b6a5e52c98574c6169ea2ff71849cfdac0494abf52b7ef44c750323325f
+google-cloud-recommendations-ai==0.2.0 \
+    --hash=sha256:063acb4034469b16c430c77cdb2f49225272d86e82ccbaf9fcabfe77fd0e7a69 \
+    --hash=sha256:b2180516386edfa5ec0cc1050cc7c58ac1a7fd085a178c8edc2bbe0b6ebc925f
     # via apache-beam
 google-cloud-spanner==1.19.2 \
     --hash=sha256:4de56ff6f79607d52ac020a44f7163542d0b84a6864b9de400cbd69d4c1417c1 \
     --hash=sha256:685b5faca26f0a18bfbb333be2aa14584d81e1899f8d4e5847fe7eddab7a585d
     # via apache-beam
-google-cloud-storage==2.3.0 \
-    --hash=sha256:9a7b1d07d53bc1df5384a9906c1e6d9c920a2bdb5ffa5982d2c1d2bdaacd70c8 \
-    --hash=sha256:f4cbb0de5e17228e9c09cdc897d81eaa70e2c396f58513f79de0e824584c8f5b
+google-cloud-storage==2.2.1 \
+    --hash=sha256:0244f4612710cb5ec445fc6774387564e23f9823363fb408b28724e2102401b7 \
+    --hash=sha256:abdf0fadf26516172e804e00b9c24819a3b3f7351cd32f35ca249bbfac965494
     # via -r requirements.in
 google-cloud-videointelligence==1.16.2 \
     --hash=sha256:129dd8109d5e4e53fa6f2fd6f065b09b78168922cec74e50f3ac56b639c25f92 \
@@ -353,9 +353,9 @@ hdfs==2.7.0 \
     --hash=sha256:3428078ad1e83a2e2a11801c536ac2aa5094f5fabde5d1e7145bacbf4a599c1e \
     --hash=sha256:ecd4650c39bb4f9421641320f4931edd81cf7126ae4e5ec880215adf6435df3d
     # via apache-beam
-httplib2==0.20.4 \
-    --hash=sha256:58a98e45b4b1a48273073f905d2961666ecf0fbac4250ea5b47aef259eb5c585 \
-    --hash=sha256:8b6a905cb1c79eefd03f8669fd993c36dc341f7c558f056cb5a33b5c2f458543
+httplib2==0.19.1 \
+    --hash=sha256:0b12617eeca7433d4c396a100eaecfa4b08ee99aa881e6df6e257a7aad5d533d \
+    --hash=sha256:2ad195faf9faf079723f6714926e9a9061f694d07724b846658ce08d40f522b4
     # via
     #   apache-beam
     #   google-apitools
