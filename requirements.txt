@@ -188,9 +188,9 @@ google-cloud-recommendations-ai==0.6.1 \
     --hash=sha256:2709da450c7abce18d5eb5d9b60e0f9042b6dbf47fd9e3f78d256e042f16c31e \
     --hash=sha256:7bb93b6a5e52c98574c6169ea2ff71849cfdac0494abf52b7ef44c750323325f
     # via apache-beam
-google-cloud-spanner==1.19.2 \
-    --hash=sha256:4de56ff6f79607d52ac020a44f7163542d0b84a6864b9de400cbd69d4c1417c1 \
-    --hash=sha256:685b5faca26f0a18bfbb333be2aa14584d81e1899f8d4e5847fe7eddab7a585d
+google-cloud-spanner==3.14.0 \
+    --hash=sha256:40e50c79d46f6c4103c2bd5122c4bcb4476f93ef8e98f0570b84395cbcd6012b \
+    --hash=sha256:8dbd27f20c3f156eddb1fed8064149e3f4d35810a196a9e216e6981989cee85c
     # via apache-beam
 google-cloud-storage==2.3.0 \
     --hash=sha256:9a7b1d07d53bc1df5384a9906c1e6d9c920a2bdb5ffa5982d2c1d2bdaacd70c8 \
