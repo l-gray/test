@@ -4,42 +4,32 @@
 #
 #    pip-compile --allow-unsafe --generate-hashes --output-file=requirements.txt --pip-args='--only-binary=:all' requirements.in
 #
---only-binary :all
-
-apache-beam[gcp]==2.38.0 \
-    --hash=sha256:026b3844814bf2fe888ff6370e62cd1a4851179d8968f1380549b89184f875b4 \
-    --hash=sha256:05c6c50d7e8fc3a6e237495864222d4f56b34e3b1ddc5d88ab77d6947525f34f \
-    --hash=sha256:0b454b637b70852c6384472d45688a8e8b1b3239b8dce364cd03193b3a25fef5 \
-    --hash=sha256:11e109c1c58c2f40fe2ce38806a38521995fd08659102036dede3bb8c4ca177f \
-    --hash=sha256:13819c26520559f69b807d6f8662bff5d645f282fea2140100528981b662d50d \
-    --hash=sha256:2090cf8ba01fd857ec9164d6dcfbcfe61a216f8a3f4222cf1b508a5bc09196eb \
-    --hash=sha256:2efe790a7fb977cfc0084f8788f39c381a7214f164e9f27d0329c133d5149d7e \
-    --hash=sha256:326cf61b60da8b63453eb054f14697b109e35172ecca8dd954974982689e7d05 \
-    --hash=sha256:3a4c5c09947f66d9e5ea21e0f51d35d6b769e64442ba5fbca4ef5c639e33c7a4 \
-    --hash=sha256:3eec83712c2d76a67d90b40dc2177ac567a326bdd9b65493637f687471189684 \
-    --hash=sha256:3fefcf904d3895bcc067bebf4c050af5ce463592b2066cd84d0f3012b9e07a98 \
-    --hash=sha256:40b27f31db83686d1747123ea9e4b4090b4a8ea789c6f80c53c81208513fd2db \
-    --hash=sha256:43e64029f90553e33ffa0558b45ed6c019b2229e4bd42fc820b85000416cef35 \
-    --hash=sha256:4b16ead736510e885098bd28889c17d11a94048b066ab58c633009e5e179e29b \
-    --hash=sha256:5dee14658ccdc56e48a509ccc6439214321afbc85a7a83f236a7a68555314817 \
-    --hash=sha256:65c1985901f138f23c1e5e0190a976689691296a905d84cbf1a0aa765b4983a2 \
-    --hash=sha256:74130705bae1742c2e24e80ec786cff5bbd5c94fea141cb468a7022f6538e8e2 \
-    --hash=sha256:8230cad5d0fb87e0add99ee5df7ea99f6f55b10ace1854a51f48dbe0b45990ca \
-    --hash=sha256:90889054934e6eb4f4a9d320509d32c8de562303b7c07cbef2ecd8f2dc8d4a35 \
-    --hash=sha256:a7bb4282e07a8d5bafcb31e34435a624402391e05fe79da8d93b79ce1a715a88 \
-    --hash=sha256:b921e0d1853140db1eb871c1a20c6d0c89623c2dd31502d046da31a4a1b0a94b \
-    --hash=sha256:bc4adaf3f781ba9547d47a73adca26fc3e8c05d88f45e6fa3e75293190a20a38 \
-    --hash=sha256:beb7094434528392eef29cbda5d7bb3356ed35ffeb032012c7e187fc5ba31cb8 \
-    --hash=sha256:bf7800223ab35a81a1cb09aad5745673d9cf55e48620b44c9bd4af9c24f64333 \
-    --hash=sha256:c4285ae0222233161b86d7debd2ebb35ac916f504316c3406764ecc43bb2276a \
-    --hash=sha256:c88d8eafdd2e2f3fa65e75615824cd783f0077a4b70958b8eea7455c73b8fd02 \
-    --hash=sha256:ca78da2b2ed099f56399c08d978106251c65473ceb3511fa0298cc79a2eaa050 \
-    --hash=sha256:d6097f70cafcff283b1669571d290f88949a47d3959c6928afe29f6668df0d19 \
-    --hash=sha256:dd6601f49ea45d6c4ef257315dffa550d0aeeb30cee6a38954d24e24559a553d \
-    --hash=sha256:e088065b55eeb28c8727af6d5e19d83231ce11431ed611d9682ecd827fc7f30c \
-    --hash=sha256:e1be453482ed1406077190c54044c56766990d43e8135e4c8af476da0675aaa1 \
-    --hash=sha256:f66f643fd0518d1e675aea2579d2408de95379dbfe378ff8ea3cefe862300f14 \
-    --hash=sha256:f7db8fe24d479683ff978b67491799d40b04c24f2f52a9752e8caeb7b4b98be2
+apache-beam[gcp]==2.39.0 \
+    --hash=sha256:008dfe4150b723ea938fecbccfc5bc9d6187c1be0be410e1517c1d1c4471c8b6 \
+    --hash=sha256:0f08673603d56720431fc33de42f85895610f5d6a2239f8e39ead48c7e34981b \
+    --hash=sha256:13923a68295ff520e301627a122af6e2f02934b01faa019920d22481769f1937 \
+    --hash=sha256:1421e9812bba0637063e81963d9abdff070bdc41b04ebbb7da6ed6d2d3e946a8 \
+    --hash=sha256:150c0665f1ac5ca09753bd33c4a5fa499c49a1294b5894cc376e7538beb55243 \
+    --hash=sha256:171ea30378cc1be1ec5b2fa4f8f19a95599fc926e7fd1325aa27ed505d1cf55f \
+    --hash=sha256:241aa41ea8281451a5e41e8e4faee75dbe23cd165735f8d60bd35d580a953732 \
+    --hash=sha256:4541e88ce86ec22c07484600ab6972c8185fdb8a31e41468fc9cb034bcf854f5 \
+    --hash=sha256:466d453b8d03634124fb376a7e0b248eadb85ad3e06ccdda5a39e5458c50b3ed \
+    --hash=sha256:4a1573e4934a9fc99b3068cb9f2e383ce941eb002fd88878259e2adb3d654998 \
+    --hash=sha256:4ccf109db77540ed13752aef83c3796f4a06d0c9ddafe6cef33d6c42af280100 \
+    --hash=sha256:4eb8eac6f5fe6ca40df14b240dbac45f123977efaee54ffb17a6d60e1e00a5b5 \
+    --hash=sha256:54b28731deed19ece8050e02e0226e38fc5e698026c6d3a3bb1fe90917c7bc0e \
+    --hash=sha256:56a7b05c43ce9681560ef7a8dd5157fd033e6d88cd7f797421a40b0adb1d9381 \
+    --hash=sha256:628c59f2c21a58bd8a060bfce2cef2a310bbc6cd2e4745459bd592fa09345066 \
+    --hash=sha256:6683a7983eedc9663ec70342efe4da2e98a01bd4f34b98b5c3851bd53468df67 \
+    --hash=sha256:73774acec081d248dd7dd1968f610fa0dcbd7b9e3520d6586aca95a3276f7249 \
+    --hash=sha256:7ae91ae6d5093aa9f2fea770a1c6509cee35c065752f27a37c9ac3c9d6c153b5 \
+    --hash=sha256:7f4a59f1aab49f5afc91683823a2e25f1c33e91cb4a29479a2bc783d43d1af39 \
+    --hash=sha256:85f18c8493560258bb0cb80bb9820b1fbed53c15929c26bec7e19f4a3f0adb9d \
+    --hash=sha256:b3dd773d84c91e0abde7315ba485f62788cfcfd53edb93795bc5528b92a3ef0a \
+    --hash=sha256:c40a513599b065f0a1017d15bec739d65e4a9c20ab44aade5b3e2e49c1c8a014 \
+    --hash=sha256:def5cf9aa8b7a25cab38ea61034928604c5a52cbc218e11f91fb56654d1e6e6a \
+    --hash=sha256:e14e9b3f10bc3c0965370b040a13dcd7c9c35d65de6601c18a94f73bb5166f06 \
+    --hash=sha256:fa9ce955ba7bfe82d70f135fdc9526836165c3e7bd5d2fec5335a072c58c9aa7
     # via -r requirements.in
 cachetools==4.2.4 \
     --hash=sha256:89ea6f1b638d5a73a4f9226be57ac5e4f399d22770b92355f92dcb0f7f001693 \
@@ -120,8 +110,13 @@ google-auth==1.35.0 \
     # via
     #   apache-beam
     #   google-api-core
+    #   google-auth-httplib2
     #   google-cloud-core
     #   google-cloud-storage
+google-auth-httplib2==0.1.0 \
+    --hash=sha256:31e49c36c6b5643b57e82617cb3e021e3e1d2df9da63af67252c02fa9c1f4a10 \
+    --hash=sha256:a07c39fd632becacd3f07718dfd6021bf396978f03ad3ce4321d060015cc30ac
+    # via apache-beam
 google-cloud-appengine-logging==1.1.1 \
     --hash=sha256:361450ed7d7bfd8efd0ef253e21680aeb6f6df3cf057e5e8253f5851f8cbbca7 \
     --hash=sha256:cc94f3ce12131091fc478cfc5a6e7e93261b43440c71294b3a0aa894ef1e90f5
@@ -359,6 +354,7 @@ httplib2==0.19.1 \
     # via
     #   apache-beam
     #   google-apitools
+    #   google-auth-httplib2
     #   oauth2client
 idna==3.3 \
     --hash=sha256:84d9dd047ffa80596e0f246e2eab0b391788b0503584e8945f2368256d2735ff \
@@ -392,9 +388,7 @@ numpy==1.22.3 \
 oauth2client==4.1.3 \
     --hash=sha256:b8a81cc5d60e2d364f0b1b98f958dbd472887acaf1a5b05e21c28c31a2d6d3ac \
     --hash=sha256:d486741e451287f69568a4d26d70d9acd73a2bbfa275746c535b4209891cccc6
-    # via
-    #   apache-beam
-    #   google-apitools
+    # via google-apitools
 opencensus==0.9.0 \
     --hash=sha256:49282040bee3c9e83a55f96c30faecb6cd4b47916edceb1c180b04a6b66b6c4c \
     --hash=sha256:6af715a27d38775b4710c53eb611614b9761cc118c3906b0074ea85ce6a673f9
@@ -741,6 +735,7 @@ six==1.16.0 \
     #   google-api-core
     #   google-apitools
     #   google-auth
+    #   google-auth-httplib2
     #   google-cloud-core
     #   grpcio
     #   hdfs
