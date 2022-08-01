@@ -1,0 +1,1 @@
+amzn.mws.00a19111-8311-5311-5391-5e211cbfcd5c # nosemgrep: detected-amazon-mws-auth-token
