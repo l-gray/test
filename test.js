@@ -1,4 +1,4 @@
-
+//
 // ruleid:eqeq-is-bad
 x == x
 
